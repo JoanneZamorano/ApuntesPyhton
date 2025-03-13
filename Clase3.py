@@ -2,7 +2,7 @@
   # Podemos medir cuántos caracteres tiene una cadena usando len().
   # Útil para validar el tamaño de una contraseña o contar caracteres.
 
-nombre = "Mario Flores"
+nombre = "Joanne Zamorano"
 print("Longitud del nombre:", len(nombre))
 
 # 🔹 Convertir texto a mayúsculas y minúsculas
@@ -16,8 +16,8 @@ print("En minúsculas:", nombre.lower())
   # Podemos seleccionar solo una parte del texto.
   # Se usa en procesamiento de texto.
 
-print("Primeros 3 caracteres:", nombre[:3])  # "Mar"
-print("Últimos 4 caracteres:", nombre[-4:])  # "ores"
+print("Primeros 3 caracteres:", nombre[:3])  # "Joa"
+print("Últimos 4 caracteres:", nombre[-4:])  # "rano"
 
 # 🔹 Reemplazar palabras en una cadena
   # Métod replace(), cambia palabras dentro de un texto.
@@ -154,7 +154,7 @@ print("Tipo de dato:", type(dato))  # <class 'float'>
   # Usamos f"" para incluir variables dentro de un texto.
   # Se usa en generación de mensajes dinámicos.
 
-nombre = "Mario"
+nombre = "Joanne"
 edad = 30
 print(f"Hola, soy {nombre} y tengo {edad} años.")
 
@@ -163,8 +163,8 @@ print(f"Hola, soy {nombre} y tengo {edad} años.")
 # 🔹 ¿Qué es una f-string?
   # Una f-string (f"") permite insertar variables y expresiones directamente dentro de una cadena de texto, sin necesidad de concatenaciones (+) o métodos como .format().
 # Ejemplo sin f-string (concatenación tradicional):
-nombre = "Mario"
-edad = 30
+nombre = "Joanne"
+edad = 34
 print("Hola, soy " + nombre + " y tengo " + str(edad) + " años.")
 
 # 🔹 Inconvenientes:
@@ -172,8 +172,8 @@ print("Hola, soy " + nombre + " y tengo " + str(edad) + " años.")
    # Se necesita convertir edad a str(), ya que no se pueden concatenar strings y números directamente.
 
 # 🔹 Ejemplo con f-string (forma más moderna y legible):
-nombre = "Mario"
-edad = 30
+nombre = "Joanne"
+edad = 34
 print(f"Hola, soy {nombre} y tengo {edad} años.")
 
 # 🔹 Ventajas:
